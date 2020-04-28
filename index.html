@@ -1,0 +1,35 @@
+<head>
+    <title>CalorieCounter</title>
+    <link rel="stylesheet" href="Food.css">
+
+    <script src="FoodItem.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+    <div class="grid-container">
+        <div  class="grid-item">
+            <h1>Enter data for what you ate</h1>
+                <label for="name">Name of Food:</label><br>
+                <input type="text" id="name"><br>
+                <label for="calories">Calories:</label><br>
+                <input type="text" id="calories"><br>
+                <label for="quantity">How many did you eat:</label><br>
+                <input type="text" id="quantity"><br><br>
+        
+            <input type="button" id="apply"
+                value="Click to Add to Your Total"><br><br>
+            <input type="button" id ="clear" value="Clear">
+
+            <br><br>
+         </div>
+
+         <div class="grid-item">
+             Food || Calories || Quantity
+             <ul id="foodList"></ul>
+             ___________________________________________<br>
+            <label id="total"></label>
+         </div>
+    </div>
+    </main>
+</body>
